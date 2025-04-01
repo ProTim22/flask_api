@@ -20,9 +20,7 @@ api = Api(app)
 api.add_resource(JobListResource, "/jobs")
 api.add_resource(JobResource, "/jobs/<int:job_id>")
 api.add_resource(JobPublishResource, "/jobs/<int:job_id>/publish")
-
 api.add_resource(UserListResource, "/users")
-
 api.add_resource(TokenResource, "/token")
 api.add_resource(RefreshResource, "/refresh")
 
